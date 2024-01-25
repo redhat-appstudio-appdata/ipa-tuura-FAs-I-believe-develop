@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: ipa-tuura
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ipaidm-tenant/ipa-tuura/ipa-tuura@sha256:1b15e047c36f9392875ce537bbc10d66f28b494c0f35d29b2331c5bfa422b8eb
+        name: my-python
+        resources: {}
+status: {}
