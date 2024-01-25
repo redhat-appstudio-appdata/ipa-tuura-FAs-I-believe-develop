@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ipa-tuura
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ipaidm-tenant/ipa-tuura/ipa-tuura@sha256:1b15e047c36f9392875ce537bbc10d66f28b494c0f35d29b2331c5bfa422b8eb
+      - image: quay.io/redhat-user-workloads/ipaidm-tenant/ipa-tuura/ipa-tuura@sha256:184e4f7bffdfb090e3222d9042da95b2f2f9025cfc66bbcd4faf27f28ccadd21
         name: my-python
         ports:
         - containerPort: 8081
