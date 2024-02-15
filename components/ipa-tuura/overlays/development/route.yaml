@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: ipa-tuura
     app.kubernetes.io/part-of: ipa-tuura
-  name: ipa-tuuracaty
+  name: ipa-tuuraaekc
 spec:
   path: /
   port:
