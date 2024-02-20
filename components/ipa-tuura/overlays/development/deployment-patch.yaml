@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ipaidm-tenant/ipa-tuura/ipa-tuura@sha256:27aa61dd184dc286531af52d41f14ac654daa27f336a027f26b2ea2a974b4e61
+      - image: quay.io/redhat-user-workloads/ipaidm-tenant/ipa-tuura/ipa-tuura@sha256:9afd7d972d42da25b9e6205a55a8909633e0fc9e96e0d732cf408ff2d02155ed
         name: my-python
         resources: {}
 status: {}
